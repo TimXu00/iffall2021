@@ -1,0 +1,18 @@
+h1 {color:white;
+text-align: center;}
+body {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/1SDlCyDyJyRFrydvinFt3s7jh0c=/0x0:828x660/1200x800/filters:focal(366x243:498x375)/cdn.vox-cdn.com/uploads/chorus_image/image/69209899/66C0988B_A559_4D1F_BD5A_3E060474D5B2.0.jpeg");
+    background-color: #383737;
+text-align: center;
+   }
+
+main{
+    text-align: center;
+    color: white;
+}
+
+.title1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}

@@ -1,0 +1,16 @@
+html{font-family:'Ubuntu', sans-serif;}
+main{font-size: 24px;}
+section{margin: 5em;}
+h2{color: darkgrey;}
+sub{color: darkgrey;
+font-size: 15px;}
+.bld{font-weight: bold;}
+.itl{font-style: italic;}
+.emth{letter-spacing: 0.3em;}
+.emsi{letter-spacing: -.06em;}
+.undl{text-decoration: underline;}
+.lnth{text-decoration: line-through;}
+.ovln{text-decoration: overline;}
+.upcs{text-transform: uppercase;}
+.lwcs{text-transform: lowercase;}
+.cptz{text-transform: capitalize;}

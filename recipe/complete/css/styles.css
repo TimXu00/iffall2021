@@ -10,11 +10,13 @@ max-width: calc(782px - 32px);
 margin-bottom: 32px;
 margin-top: 0;}
 body{background-image: url(tirabkgd.png)}
-img{width:700px;
+img{display:block;
+    width:700px;
     height: 450px;
     object-fit:center;
     float:middle;
-    padding:20px 350px 20px 350px;}
+    margin-left:auto;
+margin-right:auto;}
 h2{font-family: var(--font-base,"PT Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif);
     font-size: 3rem;
     font-weight: 400;

@@ -1,0 +1,555 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-image: url('images/louis.jpg');
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color:#fc9a18;
+    border-radius:20px;
+    border: 15px black;
+    border-style: double;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e5e696+0,d1d360+100;Wax+3D */
+background: #e5e696; /* Old browsers */
+background: -moz-linear-gradient(top,  #e5e696 0%, #d1d360 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e5e696 0%,#d1d360 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', endColorstr='#d1d360',GradientType=0 ); /* IE6-9 */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color:pink;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+.cocacola-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_cocacola {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_cocacola:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:100px;
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom: auto;
+    border: 15px solid red;
+}
+
+.nike-img{
+    width:75x;
+    height:75px;
+    margin-left:auto;
+}
+
+a#btn_nike{
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin-top:90px;
+    margin-bottom:auto;
+    transition: all .5s;
+       
+}
+
+a#btn_nike:hover{
+    border: 5px solid white;
+    background-color:#b5ff08;
+    
+}
+
+.samsung-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+    margin-top:50px;
+}
+
+a#btn_samsung{
+    display:inline-block;
+    box-sizing: border-box;
+    margin-top:auto;
+    border-radius:50px;
+    transition: all .5s;
+}
+a#btn_samsung:hover{
+    width:350px;
+    height:350px;
+    border-radius: 2px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: #d6f9ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #d6f9ff 0%, #9ee8fa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d6f9ff 0%,#9ee8fa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d6f9ff 0%,#9ee8fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+}
+
+.lyft-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_lyft {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_lyft:hover {
+    display:inline-block;
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom: auto;
+   background-color: black;
+}
+
+.ideo-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_ideo {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_ideo:hover {
+    display:inline-block;
+    margin-left:auto;
+    margin-top:80px;
+    margin-bottom: auto;
+   background-color: yellowgreen;
+}
+
+.tesla-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_tesla {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_tesla:hover {
+    background-image:url('images/elon.png');
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+    color: white;
+}
+
+.cn-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_cn {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_cn:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:100px;
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom: auto;
+    border: 15px solid white;
+}
+
+.ibm-img {
+    width: 100px;
+    height:60px;
+    margin-left:auto;
+}
+
+a#btn_ibm {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_ibm:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:100px;
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom: auto;
+    border: 15px palevioletred;
+    border-style: double;
+}
+
+.apple-img {
+    width: 200px;
+    height:200px;
+}
+
+a#btn_apple {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    transition: all .5s;
+}
+
+a#btn_apple:hover {
+    background-image:url('images/apples.png');
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+    color: white;
+}
+
+.nerf-img {
+    width: 200px;
+    height:200px;
+}
+
+a#btn_nerf {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    transition: all .5s;
+}
+
+a#btn_nerf:hover {
+    background-image:url('images/nerfgun.png');
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+    color: white;
+}
+
+.hd-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_hd {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_hd:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:100px;
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom: auto;
+    border: 15px solid orange;
+    border-style: groove;
+}
+
+.fitbit-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_fitbit {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_fitbit:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:100px;
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom: auto;
+    border: 5px solid rgb(9, 152, 240);
+    border-style:dotted;
+}
+
+.ny-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_ny {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_ny:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:150px;
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom: auto;
+    border: 2px solid black;
+    border-style:inset;
+    border-image: auto;
+}
+
+.ins-img {
+    width:150x;
+    height:150px;
+}
+a#btn_ins {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 8px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_ins:hover {
+    background-color:white;
+    border-radius:20px;
+    border: 15px black;
+    border-style: double;
+}
+
+.on-img {
+    width:60x;
+    height:60px;
+    margin-left:auto;
+}
+
+a#btn_on {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_on:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:100px;
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom: auto;
+    border: 15px solid navy;
+    border-style: double;
+    background-color: paleturquoise;
+}
+
+.mk-img {
+    width:150x;
+    height:150px;
+    margin-left:auto;
+}
+
+a#btn_mk {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all 3s;
+}
+
+a#btn_mk:hover {
+    background-image:url('images/mkcolor.png');
+    background-position: right;
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+    color: white;}

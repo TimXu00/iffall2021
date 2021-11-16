@@ -1,0 +1,42 @@
+.title1{ text-align: center;
+    font-size: 60px;
+    color: gold;}
+
+body {
+    background-image: url("images/bkgd.jpg");
+    background-color: #383737;
+text-align: center;
+   }
+
+
+a#btn_html2 {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_html2:hover {
+    display:inline-block;
+    margin-left:auto;
+    margin-top:80px;
+    margin-bottom: auto;
+   background-color: white;
+}
+
+.grid img {width: 50%; }
+.grid {padding: 15; }
+.using-floats li {float: left; }
+.using-floats::after {
+    content: ""; 
+    display: block;
+    clear: both;}
+.grid li {
+    display: block; 
+    width: 30%; 
+    text-align: center; 
+    font-size: 1rem; 
+    margin-bottom: 1rem; }

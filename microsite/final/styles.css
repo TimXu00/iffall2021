@@ -1,0 +1,159 @@
+.titlepage {
+    font-family: 'Roboto';
+    }
+    
+    .pokedex-img {
+        width:60%;
+        position: relative;
+    }
+    
+    h1 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 45px;
+    }
+    
+    h2 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 18px;
+    }
+    
+    
+    h4{  text-align: relative;
+        margin-left: auto;
+        margin-right:auto;
+        font-size: 45px;
+        color: gold;
+    font-family:'Roboto Condensed', sans-serif}
+    
+    body {
+        background-image: url("images/bkgd.jpg");
+        background-color: #383737;
+        text-align: center;
+            background: url("images/bkgd.jpg") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+    }
+    main{
+        margin-top: 10px;
+        padding-top: 8px;
+        margin-left:auto;
+        padding-left:200px;
+    }
+    iframe{
+      text-align: center;
+        position:relative; 
+        margin-left:auto;
+        padding-top:10px;
+    }
+    a#btn_html2 {
+        display:inline-block;
+        box-sizing:border-box;
+        border-radius: 50px;
+        margin: auto;
+        margin-top: 50px;
+        padding-top: 8px;
+        transition: all .5s;
+    }
+    
+    a#btn_html2:hover {
+        display:inline-block;
+        margin-left:auto;
+        margin-top:80px;
+        margin-bottom: auto;
+        border-radius: 10px;
+       background-color: rgb(255, 255, 97);
+    }
+
+    .btn_return1 {
+        width: 50px;
+        height: auto;
+    }
+    
+    .btn_return1:hover {
+        display:inline-block;
+        border-radius: 15px;
+       background-color: rgb(255, 255, 255);
+    }
+    
+    .title1{ text-align: center;
+        font-size: 60px;
+        color: gold;
+    font-family:'Roboto Condensed', sans-serif;}
+    
+    .grid-img {
+        width: 50%;
+        margin-bottom: 5px;
+        margin-top: 5px; 
+    }
+    .card {
+       
+        position : center;
+      }
+      .container {
+        position : relative;
+        width : 200px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 10px;  
+      }
+      
+      .container .card {
+        position: relative;
+        max-width : 300px;
+        height : 215px;  
+        background-color : #fff;
+        margin : 30px 10px;
+        padding : 20px 15px;
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .container .card:hover {
+        height : 500px;    
+      }
+      
+      
+      .container .card .image {
+        position : center;
+        width : 200px;
+        height : 250px;
+        top : -20%;
+        left: 20px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+      }
+      
+      .container .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+      
+      .container .card .content {
+        position : center;
+        top : -5px;
+        padding : 2px 5px;
+        color : #111;
+        text-align : center;
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+      
+      .container .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
